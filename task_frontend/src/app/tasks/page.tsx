@@ -61,7 +61,7 @@ function TasksPageContent() {
 			setEditDescription("");
 			showToast('warning', 'Task Updated!', 'Your task has been updated successfully.');
 		},
-		onError: (error: any) => {
+		onError: (error: any) => {			
 			showToast('error', 'Failed to Update Task', error?.response?.data?.message || 'Something went wrong. Please try again.');
 		},
 	});

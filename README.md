@@ -48,7 +48,7 @@ npm run dev
 
 **Required Environment Variables:**
 ```bash
-MONGODB_URI=mongodb://localhost:27017/task_manager
+MONGODB_URI=mongodb://localhost:27017/task_management
 JWT_SECRET=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30
 FRONTEND_URL=http://localhost:3000
 ```
